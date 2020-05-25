@@ -1,0 +1,51 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  // outline:1px solid red;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family:"Roboto","Microsoft JhengHei", sans-serif;
+  list-style-type: none;
+}
+img {
+  display:block;
+  max-width: 100%;
+  height: auto;
+}
+.border__bottom {
+  border-bottom: 1px solid #ffffff;
+}
+a {
+  text-decoration:none;
+}
+.font-primary {
+  color: #650300;
+}
+.font-secondary {
+  color:#AA0601;
+}
+.font-third {
+  color:#212529;
+}
+.font-fourth {
+  color:#212529;
+}
+.font-fifth {
+  color:#707070;
+}
+.font-black {
+  color: #000000;
+}
+.font-white {
+  color: #ffffff;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.bg-secondary {
+  background-color: #AA0601;
+}
+.bg-light {
+  background-color: #AA06010D;
+}

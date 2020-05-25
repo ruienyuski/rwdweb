@@ -1,0 +1,191 @@
+/* 768~992px 都享有 pad 樣式 */
+@media(max-width:992px) {
+  .logo__block{
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .logo__block__list__li {
+    margin: 40px 20px;
+  }
+  .home__banner {
+    padding-right: 48px;
+  }
+  .header__text__block {
+    text-align: right;
+  }
+  .header__text--m {
+    font-size: 20px;
+  }
+  .header__text--lg {
+    font-size: 48px;
+  }
+  .section__title  {
+    font-size: 32px;
+    padding-top: 40px;
+  }
+  .about__list{
+    flex-wrap: wrap;
+    padding-left: 48px;
+    padding-right: 48px;
+    justify-content: space-around;
+  }
+  .order1 {order:3;}
+  .order2 {order:1;}
+  .order3 {order:2;}
+  .order4 {order:4;}
+  .about__list__li__img {
+    width: 80px;
+    height: 80px;
+  }
+  .about__list__li__title {
+    font-size: 20px;
+  }
+  .product {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .product__item {
+    justify-content: space-around;
+  }
+  .product__title {
+    font-size: 28px;
+    line-height: 1.4;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 210px;
+    display: flex;
+    justify-content: center;
+  }
+  .product__img {
+    width: 410px;
+    height: 168px;
+  }
+  .product__icon {
+    width: 32px;
+  }
+  .product__text {
+    font-size: 28px;
+  }
+  .flex-reverse {
+    flex-direction: row;
+  }
+  .glasses {
+    background-position: top;
+  }
+  .glasses__block {
+    margin-top: 32px;
+  }
+  .glasses__block2 {
+    margin-top: 32px;
+    padding-bottom: 417px;
+  }
+  .glasses__block__left {
+    padding-right: 4px;
+  }
+  .right__bottom {
+    padding-top: 4px;
+  }
+  .right__bottom__right {
+    padding-left: 4px;
+  }
+  .right__bottom__right__top {
+    padding-bottom: 0;
+  }
+  
+  .glasses__block__left__img {
+    width: 251px;
+  }
+  .right__top__img {
+    width: 418px;
+  }
+  .right__bottom__left__img {
+    width: 58px;
+  }
+  .right__bottom__right__top__mobile, .right__bottom__right__top__img__mobile {
+    display: none;
+  }
+  .right__bottom__right__top__img {
+    width: 356px;
+  }
+  .more__bg {
+    padding: 9px 0 10px 13px;
+  }
+  .more__bg__in {
+    font-size: 40px;
+    padding: 3px 0 3px 19px;
+  }
+  .arrow__img {
+    width: 24px;
+  }
+  .arrow__bg__white {
+    padding: 16px 10px 15px 10px;
+    margin: 0;
+  }
+  .glasses__bg__img {
+    width: 322px;
+  }
+  .glasses__bg__text {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .recommend {
+    margin-top: -415px;
+    margin-bottom: 16px;
+  }
+  .card__list {
+    flex-wrap: wrap;
+    margin-top: 32px;
+  }
+  .card__list__li {
+    margin-bottom: 24px;
+  }
+  .contact__block {
+    max-width: 768px;
+  }
+  .contact__text {
+    margin-top: 16px;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  .btn {
+    padding: 7px 36px;
+    margin: 24px auto;
+  }
+  .footer {
+    padding: 0 48px;
+  }
+  .footer__list__li {
+    padding: 16px 40px 0 0;
+  }
+  .footer__social__li {
+    padding-top: 16px;
+    padding-left: 24px;
+  }
+  .footer__social__li__img {
+    width: 24px;
+    height: 24px;
+  }
+  .footer__content__li__img {
+    width: 23px;
+  }
+  .footer__content__li__text {
+    font-size: 20px;
+  }
+  .footer__logo {
+    display: none;
+  }
+  .footer__bottom__li {
+    padding-left: 24px;
+    font-size: 14px;
+  }
+  .faq__block {
+    padding: 0 48px;
+  }
+  .faq__list__li__content__text {
+    font-size: 16px;
+  }
+  .faq__list__li__content.active {
+    font-size: 14px;
+    padding: 16px 24px;
+  }
+}
