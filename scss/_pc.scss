@@ -10,11 +10,9 @@
 }
 .logo__block__list {
   display:flex;
-  width: 60%;
-  justify-content: space-around;
 }
 .logo__block__list__li {
-  margin: 40px 0;
+  margin: 40px 32px;
   font-size: 20px;
 }
 .dropdown {
@@ -92,25 +90,25 @@
   background-repeat: no-repeat;
 }
 .product__img__optical {
-  background-image:url('/img/optical.png');
+  background-image:url('../img/optical.png');
   margin-right: 24px;
 }
 .product__img__sunglasses {
-  background-image:url('/img/sunglasses.png');
+  background-image:url('../img/sunglasses.png');
   margin-left: 24px;
 }
 .product__img__functional {
-  background-image:url('/img/functional.png');
+  background-image:url('../img/functional.png');
   margin-right: 24px;
 }
 .product__icon__optical {
-  background-image:url('/img/optical.svg');
+  background-image:url('../img/optical.svg');
 }
 .product__icon__sunglasses {
-  background-image:url('/img/sunglasses.svg');
+  background-image:url('../img/sunglasses.svg');
 }
 .product__icon__functional {
-  background-image:url('/img/functional.svg');
+  background-image:url('../img/functional.svg');
 }
 .product__title {
   display:flex;
