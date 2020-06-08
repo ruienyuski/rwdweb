@@ -13,32 +13,36 @@
   .header__text__block {
     text-align: right;
   }
-  .header__text--m {
-    font-size: 20px;
+  .display-5 {
+    font-size: 1.25rem;
   }
-  .header__text--lg {
-    font-size: 48px;
+  .display-3 {
+    font-size: 3rem;
+  }
+  .h1 {
+    font-size: 2rem;
   }
   .section__title  {
-    font-size: 32px;
-    padding-top: 40px;
+    padding-top: 20px;
   }
-  .about__list{
+  .list{
     flex-wrap: wrap;
-    padding-left: 48px;
-    padding-right: 48px;
     justify-content: space-around;
+  }
+  .col-md {
+    width: 40%;
   }
   .order1 {order:3;}
   .order2 {order:1;}
   .order3 {order:2;}
   .order4 {order:4;}
-  .about__list__li__img {
-    width: 80px;
-    height: 80px;
+  .about__img {
+    max-width: 80px;
+    max-height: 80px;
   }
-  .about__list__li__title {
+  .about__title {
     font-size: 20px;
+    margin-bottom: 8px;
   }
   .product {
     padding-left: 0px;
@@ -49,7 +53,6 @@
   }
   .product__title {
     font-size: 28px;
-    line-height: 1.4;
     padding-left: 0px;
     padding-right: 0px;
     min-width: 210px;
@@ -59,6 +62,9 @@
   .product__img {
     width: 410px;
     height: 168px;
+  }
+  .product__img__optical,.product__img__sunglasses,.product__img__functional {
+    margin: 0;
   }
   .product__icon {
     width: 32px;
@@ -122,7 +128,7 @@
     margin: 0;
   }
   .glasses__bg__img {
-    width: 322px;
+    width:100%;
   }
   .glasses__bg__text {
     font-size: 32px;
@@ -140,12 +146,10 @@
     margin-bottom: 24px;
   }
   .contact__block {
-    max-width: 768px;
+    padding-bottom: 14px;
   }
   .contact__text {
     margin-top: 16px;
-    line-height: 1.5;
-    font-size: 16px;
   }
   .btn {
     padding: 7px 36px;
@@ -174,6 +178,23 @@
   .footer__logo {
     display: none;
   }
+  .header__icon {
+    width: 48px;
+  }
+  .faq__banner {
+    padding-left: 48px;
+    align-items: flex-end;
+    background-size: cover;
+  }
+  .faq__block {
+    align-items: flex-start;
+  }
+  .faq__title {
+    text-align: left;
+  }
+  .faq__banner__text__block {
+    justify-content: flex-start;
+  }
   .footer__bottom__li {
     padding-left: 24px;
     font-size: 14px;
@@ -181,8 +202,8 @@
   .faq__block {
     padding: 0 48px;
   }
-  .faq__list__li__content__text {
-    font-size: 16px;
+  .faq__list {
+    margin-bottom: 104px;
   }
   .faq__list__li__content.active {
     font-size: 14px;
